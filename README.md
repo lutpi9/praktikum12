@@ -99,7 +99,10 @@ python
 
 
 * Mengubah data yg sudah di input
+
 * index = self.nama.index(nama) Membuat variable index dengan self.nama di dalam nya
+
+
 python
 print("="*20)
 print("|PROGRAM INPUT DATA|")
