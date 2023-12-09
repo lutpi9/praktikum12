@@ -30,18 +30,18 @@ python
 
 
         # Menambahkan data inputan 
-    def tambah(self):
-        print("Tambah data\n")
-        nama    = input("Nama           : ")
-        self.nama.append(nama)
-        nim     = int(input("NIM            : "))
-        self.nim.append(nim)
-        uts     = int(input("Nilai UTS      : "))
-        self.uts.append(uts)
-        uas     = int(input("Nilai UAS      : "))
-        self.uas.append(uas)
-        tugas   = int(input("Nilai Tugas    : "))
-        self.tugas.append(tugas)
+        def tambah(self):
+            print("Tambah data\n")
+            nama    = input("Nama           : ")
+            self.nama.append(nama)
+            nim     = int(input("NIM            : "))
+            self.nim.append(nim)
+            uts     = int(input("Nilai UTS      : "))
+            self.uts.append(uts)
+            uas     = int(input("Nilai UAS      : "))
+            self.uas.append(uas)
+            tugas   = int(input("Nilai Tugas    : "))
+            self.tugas.append(tugas)
 
 
 
