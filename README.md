@@ -59,22 +59,23 @@ python
                   print(f"Nilai TUGAS   : {self.tugas[i]}")
 
 
-* Menampilkan method / fungsi. f = Format
-python
-            # Menghapus inputan nama
-        def hapus(self, nama):
-            print("Hapus data inputan")
-            nama = (input("\nMasukan Nama berdasarkan inputan : "))
-            if nama in self.nama:
-               print("Data {0} berhasil di hapus".format(nama))
-               index = self.nama.index(nama)
-               del self.nama[index]
-               del self.nim[index]
-               del self.uts[index]
-               del self.uas[index]
-               del self.tugas[index]
-          else:
-               print("NAMA {0} TIDAK ADA!".format(nama))
+* Menampilkan method / fungsi. f = Format python
+
+
+               # Menghapus inputan nama
+           def hapus(self, nama):
+               print("Hapus data inputan")
+               nama = (input("\nMasukan Nama berdasarkan inputan : "))
+               if nama in self.nama:
+                   print("Data {0} berhasil di hapus".format(nama))
+                   index = self.nama.index(nama)
+                   del self.nama[index]
+                   del self.nim[index]
+                   del self.uts[index]
+                   del self.uas[index]
+                   del self.tugas[index]
+              else:
+                   print("NAMA {0} TIDAK ADA!".format(nama))
 
 
 
