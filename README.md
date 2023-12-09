@@ -47,32 +47,34 @@ python
 
 * Menambahkan method / fungsi, pada data inputan Nama, NIM, UTS, UAS, Tugas
 python
-    # Menampilkan seluruh data 
-    def lihat(self):
-        for i in range(len(self.nama)):
-            print(f"\nData ke -{i+1}")
-            print(f"Nama Mahasiswa: {self.nama[i]}")
-            print(f"NIM Mahasiswa : {self.nim[i]}")
-            print(f"Nilai UTS     : {self.uts[i]}")
-            print(f"Nilai UAS     : {self.uas[i]}")
-            print(f"Nilai TUGAS   : {self.tugas[i]}")
+          # Menampilkan seluruh data 
+          def lihat(self):
+              for i in range(len(self.nama)):
+                  print(f"\nData ke -{i+1}")
+                  print(f"Nama Mahasiswa: {self.nama[i]}")
+                  print(f"NIM Mahasiswa : {self.nim[i]}")
+                  print(f"Nilai UTS     : {self.uts[i]}")
+                  print(f"Nilai UAS     : {self.uas[i]}")
+                  print(f"Nilai TUGAS   : {self.tugas[i]}")
+
 
 * Menampilkan method / fungsi. f = Format
 python
-        # Menghapus inputan nama
-    def hapus(self, nama):
-        print("Hapus data inputan")
-        nama = (input("\nMasukan Nama berdasarkan inputan : "))
-        if nama in self.nama:
-            print("Data {0} berhasil di hapus".format(nama))
-            index = self.nama.index(nama)
-            del self.nama[index]
-            del self.nim[index]
-            del self.uts[index]
-            del self.uas[index]
-            del self.tugas[index]
-        else:
-            print("NAMA {0} TIDAK ADA!".format(nama))
+            # Menghapus inputan nama
+        def hapus(self, nama):
+            print("Hapus data inputan")
+            nama = (input("\nMasukan Nama berdasarkan inputan : "))
+            if nama in self.nama:
+               print("Data {0} berhasil di hapus".format(nama))
+               index = self.nama.index(nama)
+               del self.nama[index]
+               del self.nim[index]
+               del self.uts[index]
+               del self.uas[index]
+               del self.tugas[index]
+          else:
+               print("NAMA {0} TIDAK ADA!".format(nama))
+
 
 * Menghapus data yg sudah di input. del self.nama[index] = menghapus nama
 * [index] Berfungsi agar inputan menjadi onject
