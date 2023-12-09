@@ -82,19 +82,20 @@ python
 * [index] Berfungsi agar inputan menjadi onject python
 
 
-        # Mengubah data nama inputan
-    def ubah(self, nama):
-        nama = input("Nama yang ingin di ubah : ")
-        if nama in self.nama:
-            index = self.nama.index(nama)
-            self.nim[index]     = int(input("NIM            : "))
-            self.uts[index]     = int(input("Nilai UTS      : "))
-            self.uas[index]     = int(input("Nilai UAS      : "))
-            self.tugas[index]   = int(input("Nilai Tugas    : "))
+            # Mengubah data nama inputan
+        def ubah(self, nama):
+            nama = input("Nama yang ingin di ubah : ")
+            if nama in self.nama:
+                index = self.nama.index(nama)
+                self.nim[index]     = int(input("NIM            : "))
+                self.uts[index]     = int(input("Nilai UTS      : "))
+                self.uas[index]     = int(input("Nilai UAS      : "))
+                self.tugas[index]   = int(input("Nilai Tugas    : "))
 
-            print("\nData {0} berhasil di ubah".format(nama))
-        else:
-            print("NAMA {0} TIDAK ADA!".format(nama))
+                print("\nData {0} berhasil di ubah".format(nama))
+           else:
+                print("NAMA {0} TIDAK ADA!".format(nama))
+
 
 * Mengubah data yg sudah di input
 * index = self.nama.index(nama) Membuat variable index dengan self.nama di dalam nya
