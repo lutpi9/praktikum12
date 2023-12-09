@@ -77,9 +77,11 @@ python
                print("NAMA {0} TIDAK ADA!".format(nama))
 
 
+
 * Menghapus data yg sudah di input. del self.nama[index] = menghapus nama
-* [index] Berfungsi agar inputan menjadi onject
-python
+* [index] Berfungsi agar inputan menjadi onject python
+
+
         # Mengubah data nama inputan
     def ubah(self, nama):
         nama = input("Nama yang ingin di ubah : ")
