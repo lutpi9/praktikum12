@@ -45,8 +45,9 @@ python
 
 
 
-* Menambahkan method / fungsi, pada data inputan Nama, NIM, UTS, UAS, Tugas
-python
+* Menambahkan method / fungsi, pada data inputan Nama, NIM, UTS, UAS, Tugas python
+
+
           # Menampilkan seluruh data 
           def lihat(self):
               for i in range(len(self.nama)):
