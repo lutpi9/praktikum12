@@ -102,40 +102,40 @@ python
 * index = self.nama.index(nama) Membuat variable index dengan self.nama di dalam nya python
 
 
-print("="*20)
-print("|PROGRAM INPUT DATA|")
-print("="*20)
+       print("="*20)
+       print("|PROGRAM INPUT DATA|")
+       print("="*20)
 
-data = mahasiswa()
+       data = mahasiswa()
 
-while True: 
-    print()
-    menu = input("[(T)ambah, (L)ihat, (H)apus, (U)bah, (K)eluar] : ")
-    print("~"*78)
-    print()
+       while True: 
+           print()
+           menu = input("[(T)ambah, (L)ihat, (H)apus, (U)bah, (K)eluar] : ")
+           print("~"*78)
+           print()
 
-    if menu.lower() == 't':
-        data.tambah()
+           if menu.lower() == 't':
+               data.tambah()
 
-    elif menu.lower() == 'l':
-        if data.nama:
-            data.lihat()
-        else:
-            print("BELUM ADA DATA!, pilih [T/t] untuk menambah data")       
+           elif menu.lower() == 'l':
+               if data.nama:
+                   data.lihat()
+              else:
+                   print("BELUM ADA DATA!, pilih [T/t] untuk menambah data")       
 
-    elif menu.lower() == "h":
-        data.hapus(data.nama)
+          elif menu.lower() == "h":
+              data.hapus(data.nama)
 
 
-    elif menu.lower() == "u":
-        data.ubah(data.nama) 
+          elif menu.lower() == "u":
+              data.ubah(data.nama) 
 
-    elif menu.lower() == "k":
-        print ("Program selesai, Terima Kasih :)")
-        break
+          elif menu.lower() == "k":
+              print ("Program selesai, Terima Kasih :)")
+              break
 
-    else:
-        print("\n INPUT {} TIDAK ADA!, Silakan pilih [T/L/H/U/K] untuk menjalankan program!".format(menu))
+         else:
+              print("\n INPUT {} TIDAK ADA!, Silakan pilih [T/L/H/U/K] untuk menjalankan program!".format(menu))
 
 * Perulangan dengan memilih [T/L/H/U/K] untuk menjalankan program apa yg ingin di gunakan.
 
