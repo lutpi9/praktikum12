@@ -16,13 +16,14 @@ Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah class un
 * Method hapus(nama) untuk menghapus data berdasarkan nama
 * Method ubah(nama) untuk mengubah data berdasarkan nama
 
-class mahasiswa():
-    def _init_(self):
+ class mahasiswa():
+    def __init__(self):
         self.nama = []
         self.nim = []
         self.uts = []
         self.uas = []
-        self.tugas = []
+        self.tugas = []    
+
 * Membuat class mahasiswa(): dengan instance class
 python
     # Menambahkan data inputan 
